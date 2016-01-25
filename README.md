@@ -17,7 +17,7 @@ The code is commented so you could check what the code does in each step.
 To get the tidy dataset you have just to run this code.
 
 ## Script 
-"run_analysis.R" is a R script which tidy data provided by Data Source. This script carry out the following steps:
+"run_analysis.R" is a R script which tidy data provided by Data Source. This script carries out the following steps:
 
 * Download data from "Data Source" and store it in a folder called "Data".
 * Look for the path of the files and read the files where raw data is stored.

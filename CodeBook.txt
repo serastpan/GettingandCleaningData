@@ -10,7 +10,7 @@ Data comes from accelerometers in Samsung Galaxy S series. 30 subjects were aske
  and LAYING
 . The monitoring of these activities were registrated by the accelerometers.
 ----------------------------------------------------------------------------------------------------
-"run_analysis.R" is a R script which tidy data provided by Data Source. This script carry out the following steps:
+"run_analysis.R" is a R script which tidy data provided by Data Source. This script carries out the following steps:
 1.- Download data from "Data Source" and store it in a folder called "Data".
 2.- Look for the path of the files and read the files where raw data is stored.
 3.- Add "subject" and "activity" variables to train and test datasets according to "y_train.txt", "y_test.txt", "subject_train.txt" and "subject_test.txt".
