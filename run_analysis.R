@@ -55,8 +55,8 @@ activityFile <- sapply(filesList$Name, grepl, pattern = "activity_labels.txt")
 activities <- read.table(paste("data/",filesList$Name[activityFile], sep = ""))
 activities$V2 <- as.character(levels(activities$V2))[activities$V2]
 for (i in 1:dim(activities)[1]) {
-  logVector <- grepl(activities$V1[i],subTotalSet$activities)
-  subTotalSet$activities[logVector]<-activities$V2[i]
+  logVector <- grepl(activities$V1[i],subTotalSet$activity)
+  subTotalSet$activity[logVector]<-activities$V2[i]
 }
 
 # Assign descriptive names according to two principles:
