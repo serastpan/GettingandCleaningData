@@ -4,7 +4,9 @@
 
 ### DATA SOURCE: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 MORE INFO ABOUT DATA: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Data comes from accelerometers in Samsung Galaxy S series. 30 subjects were asked to do 6 activities: WALKING
 , WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING
 , STANDING
